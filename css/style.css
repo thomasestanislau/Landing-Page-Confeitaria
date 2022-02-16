@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+body, html{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container-header{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1366px;
+}
+
+header{
+    background-color:rgb(250,242,239);
+    padding: 5px 2%;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -100px;
+    color: rgb(153, 91, 90);
+}
+
+.logo1{
+    width: 100px;
+    height:90px;
+    float: left;
+    background-image:url(../images/arte\ png.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo2{
+    width: 140px;
+    height:80px;
+    float: right;
+    background-image:url(../images/batedeira.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.container-bg{
+    width: 100%;
+    background-color:rgb(250,242,239);
+    padding: 0 2%;   
+}
+
+.bg{
+    background-image: url(../images/Post\ Rosa\ e\ Bege\ com\ Foto\ de\ Dia\ dos\ Namorados\ para\ Instagram.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    float: right;
+    width: 400px;
+    height: 104%;
+    background-color: rgb(241, 211, 211);
+    margin-right: 50px;
+    position: relative;
+    top: -2%;
+    box-shadow: 1px 1px 1px 1px rgb(153, 91, 90);
+    border: 1px solid rgb(153, 91, 90);
+}
+
+.formulario h2{
+    font-size: 20px;
+    padding: 15px 15px;
+    text-align: center;
+    background-color: rgb(207, 139, 138);
+    font-weight: normal;
+    
+}
+
+.formulario form{
+    margin-top: 8px;
+    padding: 12px;  
+}
+
+.formulario form input{
+    width: 100%;
+    border: 2px solid rgb(207, 139, 138); 
+    height: 25px;
+
+}
+
+.formulario form p{
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 2px 0;
+}
+
+.formulario form button{
+    width: 50%;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid rgb(158, 105, 104);
+    border-radius: 5px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(207, 139, 138);
+    transition-duration: 0.4s;
+}
+
+.formulario form button:hover{
+    background-color: #B8D4CD;
+}
+
+
+.formulario form select{
+    border: 2px solid rgb(207, 139, 138); ;
+    height: 20px;
+    width: 30%;
+    cursor: pointer;
+    text-align: center;    
+}
+
+.chamada{
+    text-align: center;
+    width: 100%;
+    padding: 0 2%;
+    background-color: rgb(250,242,239);
+  
+}
+
+section.chamada .container-header {
+    background-color: #B8D4CD;
+    padding: 50px 0 50px 0;
+
+}
+section.chamada .container-header h2{
+    width: 96%;
+    max-width: 700px;
+    display: inline-block; 
+    font-weight: normal;
+    font-size: 30px;
+    color: black;  
+}
+
+.flex-mosaico{
+    display: flex;
+    
+}
+
+.item1-mosaico{
+    background-position: center;
+    background-size: auto 381px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 250px;
+    
+}
+
+.item2-mosaico{
+    padding: 50px;
+    width: 50%;
+}
+
+@media screen and (max-width: 647px){
+    .flex-mosaico{
+        display: block;
+    }
+
+    .item1-mosaico{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .item2-mosaico{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1292px){
+    .formulario{
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .formulario{
+        margin: auto 40px;  
+    }
+}
+
+@media screen and (max-width: 500px){
+    .formulario{
+        margin: auto 33px;
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(250,242,239);
+
+}
+
+footer img{
+    width: 120px;
+}
+
+footer p{
+    margin-top: 8px;
+    font-size: 14px;
+}

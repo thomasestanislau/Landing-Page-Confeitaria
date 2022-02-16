@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hurricane&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Made by Lary - Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo1"></div>
+            <div class="logo2"></div>
+            <div class="clear"></div>
+            <h1>Made by Lary</h1>
+        </div>
+    </header>
+
+    <section class="container-bg">
+        <div class="bg">
+            <div class="formulario">
+                <h2>Preencha as informações para contato</h2>
+                <form><!--Inicio do formulário-->
+                    <p>*Nome</p>
+                    <input type="text" class="nome" placeholder=" Preencha o seu nome" required>
+                    <p>*Sobrenome</p>
+                    <input type="text" class="nome" placeholder=" Preencha o seu sobrenome" required>
+                    <p>Data de nascimento</p>
+                    <input type="data" class="data" placeholder=" xx/xx/xxxx">
+                    <p>Telefone</p>
+                    <input type="tel" class="telefone" placeholder=" (xx) xxxxx-xxxx">
+                    <p>*E-mail</p>
+                    <input type="email" class="email" placeholder=" meuemail@email.com" required>
+                    <p>Como nos conheceu?</p>
+                        <select name="opcao" id="opcao">
+                            <option class="primeiraopcao" selected disable value="">---------</option>
+                            <option>Instagram</option>
+                            <option>Facebook</option>
+                            <option>Ifood</option>
+                        </select>
+                    <button class="botao" type="submit">Enviar</button>
+                    <div class="aviso">
+                        <p style="font-size: 15px; margin-top: 20px;">*Campos obrigatórios</p>
+                    </div>
+                    <div class="clear"></div><!--Clear para limpar o float-->
+                </form><!--Encerramento do formulário-->
+        
+            </div><!--Fechamento da div formulario-->
+        </div><!--Fechamento da div do background bg-->
+    </section>
+
+    <section class="chamada">
+        <div class="container-header">
+            <div>
+                <h2>Conheça nossos produtos</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="mosaico">
+        <div class="container-bg">
+
+            <div class="flex-mosaico" style="flex-direction: row-reverse;">
+                <div style="background-image: url('images/barras2.jpg'); background-color: #e7f3f0;" class="item1-mosaico"></div>
+                <div class="item2-mosaico" style="background-color: #e7f3f0;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae odio at massa posuere sagittis. Nulla euismod eleifend urna, vel finibus purus vestibulum in.</p>
+                </div>
+            </div>
+
+            <div class="flex-mosaico">
+                <div style="background-image: url('images/boloaberto.jpg');" class="item1-mosaico"></div>
+                <div class="item2-mosaico">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae odio at massa posuere sagittis. Nulla euismod eleifend urna, vel finibus purus vestibulum in.</p>
+                </div>
+            </div>
+
+            <div class="flex-mosaico" style="flex-direction: row-reverse;">
+                <div style="background-image: url('images/bolodepote.jpg'); background-color: #e7f3f0;" class="item1-mosaico"></div>
+                <div class="item2-mosaico" style="background-color: #e7f3f0;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae odio at massa posuere sagittis. Nulla euismod eleifend urna, vel finibus purus vestibulum in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <img src="images/arte png.png" alt="">
+        <p>Todos os direitos reservados - Made by Lary</p>
+        <p>Founded 2021</p>
+    </footer>
+</body>
+</html>
